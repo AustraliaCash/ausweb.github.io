@@ -1,0 +1,40 @@
+[{"code":"AUD","n":<label id="naudPrice"></label>,"price":"AU$<label id="audprice"></label>
+
+<script type="text/javascript">
+  function getElement(id) {
+    return document.getElementById(id);
+  }
+  var aus = false;
+  var coin = (aus) ? 'australia-cash' : 'genix';
+  var array = {};
+  fetch('https://api.coingecko.com/api/v3/coins/' + coin + '?localization=false&sparkline=false')
+    .then(res => res.json())
+    .then((res) => {
+      const market_data = res.market_data;
+      array.price = market_data.current_price.aud.toFixed(6);
+      getElement('naudPrice').innerHTML = array.price;
+      getElement('audprice').innerHTML = array.price;
+    });
+
+</script>
+","name":"Australian Dollar"},
+
+{"code":"USD","n":<label id="nusdPrice"></label>,"price":"USD$<label id="usdprice"></label>
+
+<script type="text/javascript">
+  function getElement(id) {
+    return document.getElementById(id);
+  }
+  var aus = false;
+  var coin = (aus) ? 'australia-cash' : 'genix'
+  var array = {};
+  fetch('https://api.coingecko.com/api/v3/coins/' + coin + '?localization=false&sparkline=false')
+    .then(res => res.json())
+    .then((res) => {
+      const market_data = res.market_data;
+      array.price = market_data.current_price.usd.toFixed(6);
+      getElement('nusdPrice').innerHTML = array.price;
+      getElement('usdprice').innerHTML = array.price;
+    });
+</script>
+","name":"United States Dollar"}]

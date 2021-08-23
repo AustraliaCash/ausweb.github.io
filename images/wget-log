@@ -1,0 +1,6 @@
+--2021-06-26 01:33:04--  https://media-exp1.licdn.com/dms/image/C4D1BAQGDdx6rBw3kcA/company-background_10000/0/1599557367688?e=2159024400
+Resolving media-exp1.licdn.com (media-exp1.licdn.com)... 23.223.48.210, 2600:1415:11:59d::25ea, 2600:1415:11:58d::25ea
+Connecting to media-exp1.licdn.com (media-exp1.licdn.com)|23.223.48.210|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2021-06-26 01:33:04 ERROR 403: Forbidden.
+
