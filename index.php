@@ -126,7 +126,7 @@
         <div class="row mb-5">
 
           <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade-up" data-aos-delay="100">
-            <img src="images/img_3.png" alt="Image" class="img-fluid rounded">
+            <img src="images/australiacash_trans.png" alt="Image" class="img-fluid rounded">
           </div>
           <div class="col-md-6 order-md-1" data-aos="fade-up">
             <div class="text-left pb-1 border-primary mb-4">
@@ -417,18 +417,16 @@
 		<a href="https://novaexchange.com" target="blank"><img src="images/nova.png" width="300"> Nova Exchange Closed Down-->
 		
 		&nbsp;
-		<a href="https://wallet.autradex.systems/markets/acbtc"><img src="images/autradex.png" width="500"></a>
-
 		<a href="https://cratex.io" target="blank"><img src="images/cratex.png"></a>
-		&nbsp; &nbsp;
-		<a href="https://altmarkets.io" target="blank"><img src="images/altmarkets.png" width="300"></a><br>
-		<br>
+		<br>&nbsp; <Br>
+                <a href="https://southxchange.com" target="blank"><img src="images/southxchange.2d1f6024.png"></a>
+		<br>&nbsp;<br>
                 <a href="https://blocknet.co" target="blank"><img src="images/blocknet.png" width="300">
+                <br>&nbsp;<br>
 		<a href="https://bisq.network" target="blank"><img src="images/bisq-logo.svg"></a>
-                &nbsp;
+                <br>&nbsp;<br>
                 <a href="https://dex.delion.online"><h2>DELION DEX</h2></a><br>
                 &nbsp;
-                <a href="https://dex-trade.com" target="blank"><img src="images/dextrade.jpg">
             <!--<a href="https://" class="play-single-big mb-4 d-inline-block popup-vimeo"><span class="icon-play"></span></a>
             <h2 class="text-white font-weight-light mb-5 h1"><!--Watch The Video</h2>-->
             
