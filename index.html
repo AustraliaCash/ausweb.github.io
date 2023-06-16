@@ -2,6 +2,18 @@
 <html lang="en">
   <head>
     <title>Australia Cash</title>
+
+<script type="text/javascript">
+  window.__SIDESHIFT__ = {
+    parentAffiliateId: "7AGwnWMBRQ",
+    defaultDepositMethodId: "btc",
+    defaultSettleMethodId: "doge",
+    settleAddress: undefined,
+    type: "variable",
+    settleAmount: undefined,
+  }
+</script>
+<script src="https://sideshift.ai/static/js/main.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121292257-2"></script>
 <script>
@@ -120,7 +132,41 @@
 
             <h1 class="text-white font-weight-light text-uppercase font-weight-bold" data-aos="fade-up">Australia Cash</h1>
             <p class="mb-5" data-aos="fade-up" data-aos-delay="100">Digital Asset</p>
-            <p data-aos="fade-up" data-aos-delay="200"><a href="https://github.com/australiacash/australiacash-core" class="btn btn-primary py-3 px-5 text-white">Source Code</a></p>
+            <style scoped>
+#sideshift-modal-button {
+  -webkit-appearance: none;
+  background: #1f1f1f;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  letter-spacing: 0px;
+  margin: 0 auto 1rem auto;
+  min-width: 12rem;
+  padding: 0.75rem 1rem;
+  position: relative;
+  text-decoration: none;
+  text-transform: none;
+  font-weight: 700;
+  z-index: 2;
+}
+
+#sideshift-modal-button:hover {
+  background-image: linear-gradient(
+    90deg,
+    #f7931a 0%,
+    #f7bf10 50%,
+    #f7931a 100%
+  );
+  border: 1px solid #f7931a;
+  color: #1f1f1f;
+}
+</style>
+
+<button onClick="window.sideshift.show()" id="sideshift-modal-button">
+Crypto Swap
+</button>
 
           </div>
         </div>
